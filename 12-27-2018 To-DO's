@@ -1,0 +1,31 @@
+# Project Updates - Chang (12/27/2018)
+
+## 180719/180726 RNA-Seq Marlies Meisel
+### Current Status:
+  - Currently working on GO Term analysis with Marlies Meisel, had meeting with her on the 19th of Decemeber to discuss specifics on what she is looking for in the GO term analysis
+    - Did not get the full picture, need to re-contact her to see if she is determined to use Cytoscape as the software of choice for visualizing GO term analysis, possibly switching to IPA
+### GO Term Analysis: Cytoscape vs IPA
+[] Determining best methodology for presenting GO term Analysis
+  [] Possibility #1: Using IPA, rather than Cytoscape.... waiting on Marlies' determination
+    [] Learning more about IPA in the case that Marlies' does choose to use IPA instead of Cytoscape
+  [] Possibility #2: Continues to use Cytoscape as main source of GO term Analysis... if Marlies' wishes to use the connections between groupings as part of her paper
+    [] Finding best way to present data without having the graph look like a mess/spider web
+    
+## 180716 RNA-Seq Ava Puccio
+### Current Status:
+  - Waiting on Ava Puccio response on the output, however discovered an unsual output coming out from Salmon
+    - Discovered that there are some repeats of Gene name in the ouput file with unique Ensembl IDs
+### Troubleshooting: Salmon
+[] Determine the reason for Salmons output in repeating certain gene names
+  Info:
+    - Does not appear to be present in other data sets, such as Lin Hang and Meisel
+    - Different gene IDs do appear in the output file, however, they do end up matching with the correct gene name according to Ensembl
+    - Every line has a different Ensembl ID
+    - Most lines that have repeat Gene names have same CPM values throughout, but some have different values
+  [] Run a check on reference files from Salmon aligner and RStudio reference files to makes sure version numbers match
+  [] Do a re-run of edgeR using the OLD biomaRt methodology, (keeping in mind that the available reference file is POSSIBLY not fully up to date)
+  [] Check BioStars/forums to see if people ran into similar situation
+  [] Check a generic gene with multiple repeats and check numCounts from the quant.sf file of Salmon (Do a similar analysis troublshooting like we did with Meisel)
+
+## Miscellaneous
+[] Check for upcoming NGS workshops with a possible focus on cancer if applicable
