@@ -1,1 +1,29 @@
+# Project Updates - Chang (1/4/2019)
+
+## 180719/180726 RNA-Seq Marlies Meisel
+### Current Status:
+  - Uploaded Data to IPA, and found that the pathways that were listed was what Meisel was looking for
+    - Determing whether to use IPA or Cytoscape as the visual representation of GO Term Analysis is still up for discussion
+### GO Term Analysis: Cytoscape vs IPA
+[] Determining best methodology for presenting GO term Analysis
+  [] Possibility #1: Using IPA, rather than Cytoscape.... waiting on Marlies' determination
+    [] Learning more about IPA in the case that Marlies' does choose to use IPA instead of Cytoscape
+  [] Possibility #2: Continues to use Cytoscape as main source of GO term Analysis... if Marlies' wishes to use the connections between groupings as part of her paper
+    [] Finding best way to present data without having the graph look like a mess/spider web
+    
+## 180716 RNA-Seq Ava Puccio
+### Current Status:
+  - Found a new possible framework for Ensembl when identifying transcripts to genes, which could be the underlying issue of the repeating Gene Names
+    - This update occurred around October 2018 which was exactly around the time when we started the project
+### Troubleshooting: Salmon
+[] Determine the reason for Salmons output in repeating certain gene names
+  Info:
+    - Does not appear to be present in other data sets, such as Lin Hang and Meisel
+    - Different gene IDs do appear in the output file, however, they do end up matching with the correct gene name according to Ensembl
+    - Every line has a different Ensembl ID
+    - Most lines that have repeat Gene names have same CPM values throughout, but some have different values
+  [x] Run a check on reference files from Salmon aligner and RStudio reference files to makes sure version numbers match
+  [x] Do a re-run of edgeR using the OLD biomaRt methodology, (keeping in mind that the available reference file is POSSIBLY not fully up to date)
+  [x] Check BioStars/forums to see if people ran into similar situation
+  [] Check a generic gene with multiple repeats and check numCounts from the quant.sf file of Salmon (Do a similar analysis troublshooting like we did with Meisel)
 
