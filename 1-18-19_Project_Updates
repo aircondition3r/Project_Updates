@@ -4,6 +4,7 @@
 ### Current Status:
   - Instructed Meisel on registering for ClueGO and IPA
     - Gave her basic insturctions on how to use the software, and let her determine which methodology is best herself
+  - Waiting on write up samples to write the methods and materials for Meisel paper
 ### Writing Methods and Materials
 [] Will write a short paragraph about the methods and materials used during the RNA-seq analysis
     
@@ -24,6 +25,6 @@
 
 ## RNA-Seq Cardounel
 ### Current Status:
-  - Waiting on RNA-Seq questionaire to continue on with analysis
+  - Waiting on RNA-Seq questionaire to continue on with analysis, Running BLAST
 ### Pre-Patient 2 Samples look Strange:
   [] Running BLAST on Poly-G trimmed fasta files on Pre-patient 2 to see if there are signs of contamination via CLC Genome Browser
