@@ -4,5 +4,13 @@
 ### Current Status:
   - Waiting on response from Meisel if there are any other things she needs for the paper
 
-
+## RNA-Seq Cardounel
+### Current Status:
+  - Just finished running BLAST, have concluded that there is significant rRNA contamination, seems to be sheep
+### Pre-Patient 2 Samples look Strange:
+  [] Rerunnning BBSplit to see if Sheep rRNA does seperate out from the primary assembly
+  
+## RNA-Seq Puccio
+### Current Status:
+  - Updating Wiki on Github
     
