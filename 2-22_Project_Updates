@@ -1,9 +1,5 @@
 # Project Updates - Chang (2/22/2019)
 
-## 180719/180726 RNA-Seq Marlies Meisel
-### Current Status:
-  - Waiting on response from Meisel if there are any other things she needs for the paper
-
 ## RNA-Seq Cardounel
 ### Current Status:
   - Finished running Picard's Collect RNA Seq Metrics program, however, output is not friendly when dealing with large data sets
