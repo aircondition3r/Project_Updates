@@ -8,8 +8,8 @@
    - https://github.com/slowkow/picardmetrics
 ### Picard Metrics
   [] Currently testing on HTC to get it working in out environment.  However, running into problems with directory compatiblities
-  [x] Asking Anish for help in making this code compatible with HTC environment
-  [] Working on R Script to get beautiful graphs as see on the GitHub page
+    [x] Asking Anish for help in making this code compatible with HTC environment
+  [] Make R Script to get beautiful graphs as see on the GitHub page
 
 ## 180719/180726 RNA-Seq Marlies Meisel
 ### Current Status:
