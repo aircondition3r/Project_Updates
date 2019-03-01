@@ -10,7 +10,7 @@
   - In the process of trying to stream-line the bash script of RNASeqMetrics so that it could be a tool for us later on without
   having to manually output to RStudio to make graphs
 ### Picard Metrics
-  [] There is not clearly labeled HISAT2 index using the UCSC reference fasta file, so creating my own that is clearly labeled
+  [x] There is not clearly labeled HISAT2 index using the UCSC reference fasta file, so creating my own that is clearly labeled
   [] ReMap the data using the UCSC reference files
   [] Stream line the output from RNASeqMetrics into one file so that it will be easier to create the Rscript when making the 
   graphs, so dont have to seperately put them into RStudio
