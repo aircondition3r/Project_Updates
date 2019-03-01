@@ -14,7 +14,8 @@
   [] ReMap the data using the UCSC reference files
   [] Stream line the output from RNASeqMetrics into one file so that it will be easier to create the Rscript when making the 
   graphs, so dont have to seperately put them into RStudio
-  [] Make R Script to get a graphical output of the Ribosomal content, 
+  [] Make R Script to get a graphical output of the Ribosomal content via a bar graph and integrate it with the rest of the 
+  bash script so that it outputs all at once
 
 ## 180719/180726 RNA-Seq Marlies Meisel
 ### Current Status:
