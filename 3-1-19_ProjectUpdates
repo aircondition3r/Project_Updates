@@ -1,0 +1,21 @@
+# Project Updates - Chang (3/1/2019)
+
+## RNA-Seq Cardounel
+### Current Status:
+  - Discarded the idea of using picard metrics, took too long to try and set up for us and it was not very well documented if
+  we came accross any problems.
+  - Anish found that the output seems off.  There should not be such a high amount of 'INTERGENIC GENES' counts, so he thinks that
+  there is a consistency discrepency with the reference files that I was using, since I had to use UCSC 'RefFlat.txt' file and I
+  aligned the data using an ensembl GTF.
+  - In the process of trying to stream-line the bash script of RNASeqMetrics so that it could be a tool for us later on without
+  having to manually output to RStudio to make graphs
+### Picard Metrics
+  [] There is not clearly labeled HISAT2 index using the UCSC reference fasta file, so creating my own that is clearly labeled
+  [] ReMap the data using the UCSC reference files
+  [] Stream line the output from RNASeqMetrics into one file so that it will be easier to create the Rscript when making the 
+  graphs, so dont have to seperately put them into RStudio
+  [] Make R Script to get a graphical output of the Ribosomal content, 
+
+## 180719/180726 RNA-Seq Marlies Meisel
+### Current Status:
+  - Waiting on response from Meisel if there are any other things she needs for the paper
