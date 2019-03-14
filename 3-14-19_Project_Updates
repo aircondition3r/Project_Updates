@@ -4,9 +4,14 @@
 ### Current Status:
   - Finally got the correct samples, and running through regular pipeline using HISAT2, and using UCSC reference files so can use
   picard tools for this project if needed.
-### QoRTs
+### Pipeline
   [] Gettings some errors in the qorts output, but still outputs all of the correct plots that are expected, figure out why the
   errors are occurring
+  [] Run HT-Seq
+  [] Make Salmon Index for Mouse with new Salmon 11.3 parameters
+  [] Run Salmon
+  [] Compare HISAT2 and Salmon output
+  [] edgeR
 
 ## RNA-Seq Cardounel
 ### Current Status:
