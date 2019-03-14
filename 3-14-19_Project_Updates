@@ -1,1 +1,19 @@
+# Project Updates - Chang (3/1/2019)
 
+## RNA-Seq Kane
+### Current Status:
+  - Finally got the correct samples, and running through regular pipeline using HISAT2, and using UCSC reference files so can use
+  picard tools for this project if needed.
+### QoRTs
+  [] Gettings some errors in the qorts output, but still outputs all of the correct plots that are expected, figure out why the
+  errors are occurring
+
+## RNA-Seq Cardounel
+### Current Status:
+  - Waiting on response from Cardounel on what to do with Patient Pre 2
+### Picard Metrics
+  - Picard Metrics is working 100% and runs within a reasonable amount of time
+
+## 180719/180726 RNA-Seq Marlies Meisel
+### Current Status:
+  - Waiting on response from Meisel if there are any other things she needs for the paper
