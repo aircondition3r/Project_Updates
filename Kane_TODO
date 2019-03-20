@@ -1,0 +1,21 @@
+Moving Files
+  [] Merged vs Raw directories
+
+Concatenation
+  [] Create Script with the following:
+      [] Unzip all fastq files
+      [] echo files names back
+      [] cat lane files into Read 1 and Read 2 based on paired end
+      
+FastQC
+  [] Run Fastqc on merged files, check for ~40 mil reads per file
+  
+Salmon
+  [] Run Salmon against Ensembl reference trascriptome
+  
+HISAT2
+  [] Run HISAT2 using Ensembl reference fasta
+  
+QoRTs vs Picard
+  [] QoRTs
+  
