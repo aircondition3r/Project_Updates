@@ -1,1 +1,26 @@
+# Project Updates - Chang (3/1/2019)
 
+## RNA-Seq Kane
+### Current Status:
+  - Finished creation of DE and Master gene list, however, clustering does not look as expected and need to discuss on possible
+  sample mislabelling issues
+    - "Star" files for GFPhi and GFPlow do not match up with their groupings, and Sample 9 WT is not grouping with the other WT
+### To DO:
+  [] Figure out what is happening with Sample 9, and whether it is mislabeled with one of the other 'star' files.
+    [] Check out FOXP3, see if there is a correlation between the GFP conditions vs WT and maybe correlate that with a possible
+    mis-labeled star file
+
+## RNA-Seq Wang
+### Current Status:
+  - Still downloading the data from the link, will start the beginning of the pipeline first thing on Monday
+### TO DO:
+  Pipeline:
+    [] FastQC
+    [] Concatenation
+    [] FastQC
+    [] Cutadapt
+    [] FastQC
+    [] Salmon
+    [] HISAT2
+    [] QoRTs
+    [] HT-Seq
